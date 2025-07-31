@@ -22,7 +22,7 @@ const Dashboard = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:5000/feedback');
+      const response = await fetch("https://feedbackcollectionapp-backend.onrender.com/feedback");
       if (response.ok) {
         const data = await response.json();
         setFeedbacks(data);
