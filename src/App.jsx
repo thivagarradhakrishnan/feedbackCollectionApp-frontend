@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>Team Sahayta - Feedback System</h1>
+        <h1>Feedback Collection System </h1>
         <nav className="nav">
           <button
             className={`nav-btn ${activeTab === 'form' ? 'active' : ''}`}
